@@ -1,7 +1,6 @@
 {
   "name": "base-vite",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,10 +8,11 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^6.0.5"
+    "vite": "^5.0.0"
   },
   "dependencies": {
     "@ardrive/turbo-sdk": "^1.21.0",
+    "dotenv": "^16.5.0",
     "vite-plugin-node-polyfills": "^0.22.0"
   }
 }
